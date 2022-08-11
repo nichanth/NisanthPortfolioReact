@@ -7,16 +7,20 @@ const Footer = () => {
     <footer>
       <div className="footer_social">
         <a
-          href="https://www.linkedin.com/feed/"
+          href="https://www.linkedin.com/in/nisanth-b-864133138/"
           target="_blank"
           rel="noreferrer"
         >
           <BsLinkedin />
         </a>
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/nichanth" target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.instagram.com/__nichanth__/?hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsInstagram />
         </a>
       </div>
