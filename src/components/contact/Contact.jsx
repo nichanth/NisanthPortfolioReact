@@ -16,7 +16,12 @@ const Contact = () => {
             <MdMailOutline className="contact_option-icon" />
             <h4>Email</h4>
             <h5>nisanth.bs@gmail.com</h5>
-            <a href="mailto:nisanth.bs@gmail.com">Send a messange</a>
+            <a
+              href="mailto:nisanth.bs@gmail.com"
+              style={{ fontWeight: "bold" }}
+            >
+              Send a message
+            </a>
           </article>
           <article className="contact_option">
             <AiOutlineInstagram className="contact_option-icon" />
@@ -25,19 +30,21 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/__nichanth__/?hl=en"
               target={"blank"}
+              style={{ fontWeight: "bold" }}
             >
-              Send a messange
+              Send a message
             </a>
           </article>
           <article className="contact_option">
             <RiMessengerLine className="contact_option-icon" />
-            <h4>Messanger</h4>
+            <h4>Messenger</h4>
             <h5>Nisanth Bayamariyan</h5>
             <a
               href="https://www.facebook.com/nisanth.bayamariyan"
               target={"blank"}
+              style={{ fontWeight: "bold" }}
             >
-              Send a messange
+              Send a message
             </a>
           </article>
           <article className="contact_option">
@@ -47,8 +54,9 @@ const Contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=9600641395"
               target={"blank"}
+              style={{ fontWeight: "bold" }}
             >
-              Send a messange
+              Send a message
             </a>
           </article>
         </div>
