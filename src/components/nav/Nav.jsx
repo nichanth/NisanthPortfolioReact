@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div>
       <nav>
-        <a href="#">
+        <a href="#Home">
           <AiOutlineHome />
         </a>
         <a href="#About">

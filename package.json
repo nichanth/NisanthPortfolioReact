@@ -1,6 +1,5 @@
 {
   "name": "react_portfolio",
-  "homepage": "http//:nisanthportfolio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

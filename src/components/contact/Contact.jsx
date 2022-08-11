@@ -24,7 +24,7 @@ const Contact = () => {
             <h5>__nichanth__</h5>
             <a
               href="https://www.instagram.com/__nichanth__/?hl=en"
-              target={"_blank"}
+              target={"blank"}
             >
               Send a messange
             </a>
@@ -35,7 +35,7 @@ const Contact = () => {
             <h5>Nisanth Bayamariyan</h5>
             <a
               href="https://www.facebook.com/nisanth.bayamariyan"
-              target={"_blank"}
+              target={"blank"}
             >
               Send a messange
             </a>
@@ -46,7 +46,7 @@ const Contact = () => {
             <h5>+919600641395</h5>
             <a
               href="https://api.whatsapp.com/send?phone=9600641395"
-              target={"_blank"}
+              target={"blank"}
             >
               Send a messange
             </a>

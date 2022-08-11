@@ -8,7 +8,7 @@ import { MdOutlineDoubleArrow } from "react-icons/md";
 const Header = () => {
   return (
     <header>
-      <div className="container container_header">
+      <div className="container container_header" id="Home">
         <h5>Hello I'm</h5>
         <h1>Nisanth</h1>
         <h5 className="text-light">Front-end Developer</h5>
