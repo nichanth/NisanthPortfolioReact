@@ -1,26 +1,47 @@
-import React from "react";
-import About from "./components/about/About";
-import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
+import "./app.scss";
+import AboutContent from "./components/about/AboutContent";
+import AboutParallex from "./components/about/AboutParallex";
+import Home from "./components/home/Home";
+import Navbar from "./components/navbar/Navbar";
+import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
-import Skills from "./components/skills/Skills";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-
-function App() {
+import Contacts from "./components/contacts/Contacts";
+import Cursor from "./components/cursor/Cursor";
+const App = () => {
   return (
     <div>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
+      <Cursor />
+      <section id="Home">
+        <Navbar />
+        <Home />
+      </section>
+
+      <section id="About">
+        <AboutParallex type="about" />
+      </section>
+
+      <section>
+        <AboutContent />
+      </section>
+
+      <section id="Education">
+        <Education />
+      </section>
+      <section id="Experience">
+        <Experience />
+      </section>
+  
+        <div id="Projects">
+        <Projects />
+        </div>
+        
+     
+      <section id="Contacts">
+        <Contacts />
+      </section>
     </div>
   );
-}
+};
 
 export default App;
